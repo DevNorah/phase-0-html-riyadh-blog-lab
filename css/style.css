@@ -3,16 +3,16 @@
 html, body {
   height: 100%;
   min-height: 100%;
+  overflow-x: hidden;
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) repeat-y;
+  background: url(../images/backgrounds/architecture.jpg) repeat-y center top;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
-  background-repeat: repeat-y;
   background-size: cover;
-
+  margin: 0;
 
 
 }
@@ -20,7 +20,10 @@ body {
 .wrapper {
   margin: 0 auto;
   width: 60%;
-  padding-bottom: 40px;
+  padding: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+
 }
 
 #content {
@@ -53,6 +56,8 @@ img {
   max-width: 100%;
   width: 100%;
   height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 p {
@@ -91,4 +96,8 @@ a:hover {
 
 #bottom {
   display: grid;
+}
+
+a{
+  display: block;
 }
