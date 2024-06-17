@@ -6,11 +6,15 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
-  background-size: cover;
+  background: url(../images/backgrounds/architecture.jpg) repeat-y;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
+  background-repeat: repeat-y;
+  background-size: cover;
+
+
+
 }
 
 .wrapper {
@@ -83,4 +87,8 @@ a:hover {
   .wrapper {
     width: 95%;
   }
+}
+
+#bottom {
+  display: grid;
 }
